@@ -1,2 +1,16 @@
-npm init -y
-npm install express cors dotenv openai
+{
+  "name": "ai-compliment-generator",
+  "version": "1.0.0",
+  "description": "A fun AI compliment generator using OpenAI API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.0.0"
+  }
+}
